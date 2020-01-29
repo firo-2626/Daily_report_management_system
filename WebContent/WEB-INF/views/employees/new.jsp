@@ -7,7 +7,7 @@
         <h2>従業員 新規登録ページ</h2>
 
         <!-- ポスト形式でクリエイトへ送る -->
-        <form method="POST" action="<c:url value='/employees/create'/>">
+         <form method="POST" action="<c:url value='/employees/create' />">
                 <c:import url="_form.jsp"/>
         </form>
 

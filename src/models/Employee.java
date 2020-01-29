@@ -57,6 +57,7 @@ public class Employee {
     @Column(name = "updated_at",nullable = false)
     private Timestamp updated_at;
 
+    // 論理削除
     @Column(name = "delete_flag",nullable = false)
     private Integer delete_flag;
 
