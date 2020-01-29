@@ -13,6 +13,7 @@
             <div id="header">
                 <h1>日報管理システム</h1>
             </div>
+            <!-- 各ページのパラムの内容が入る -->
             <div id="content">
                 ${param.content }
             </div>
