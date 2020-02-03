@@ -4,7 +4,7 @@
     <c:param name="content">
         <c:if test="${hasError }">
             <div id="flush_error">
-                社員番号がパスワードが間違っています。
+                社員番号かパスワードが間違っています。
             </div>
         </c:if>
         <c:if test="${flush != null}">
@@ -13,7 +13,7 @@
             </div>
         </c:if>
         <h2>ログイン</h2>
-        <form method="POST" action="<c:url value='/login'/>">
+        <form method="POST" action="<c:url value='/login' />">
             <label for="code">社員番号</label><br />
             <input type="text" name="code" value="${code }"/>
             <br/><br/>
